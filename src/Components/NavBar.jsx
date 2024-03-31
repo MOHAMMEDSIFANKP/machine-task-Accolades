@@ -27,7 +27,7 @@ function NavBar() {
   };
 
   return (
-    <div className='grid grid-cols-2 h-[7rem] lg:-mt-2 -mt-4 bg-opacity-10 bg-gray-100'>
+    <div className='grid grid-cols-2 h-[4.3rem] lg:h-[5.5rem]  bg-opacity-10 bg-gray-100'>
       <div className='flex items-center'>
         <img src={Logo} className='ms-10' alt="Company Logo" />
       </div>
