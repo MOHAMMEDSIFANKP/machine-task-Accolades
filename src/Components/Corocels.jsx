@@ -9,7 +9,7 @@ function Corocels() {
         <Carousel className="rounded-xl  text-white">
             <div className='grid grid-cols-2 h-full'>
                 <div className='flex justify-center items-center h-full'>
-                    <Card className='h-5/6 grid grid-rows-3 w-8/12' style={{ backgroundColor: 'rgba(32,33,45,255)', borderRadius: '3rem' }}>
+                    <Card className='h-5/6 grid grid-rows-3 w-[31rem]' style={{ backgroundColor: 'rgba(32,33,45,255)', borderRadius: '3rem' }}>
                         <div className='text-6xl text-center flex justify-center items-center'>
                             <div>
                                 <p className='text-red-500'>What they say</p>

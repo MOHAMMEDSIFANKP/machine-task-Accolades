@@ -27,9 +27,9 @@ function NavBar() {
   };
 
   return (
-    <div className='grid grid-cols-2 h-[7rem] bg-[]'>
+    <div className='grid grid-cols-2 h-[7rem] lg:-mt-2 -mt-4 bg-opacity-10 bg-gray-100'>
       <div className='flex items-center'>
-        <img src={Logo} className='ps-24' alt="Company Logo" />
+        <img src={Logo} className='ms-10' alt="Company Logo" />
       </div>
       <div className={`${openNav ? "flex justify-center items-center" : "flex justify-end me-10 items-center"}`}>
         {isSmallScreen ? (
