@@ -21,7 +21,9 @@ function HomePage() {
   return (
     <>
       <div className='bg-black text-white'>
-        <div className='h-screen bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <div className='relative h-screen bg-cover bg-center flex justify-center items-center' style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(${backgroundImage})` }}>
+          
+          <p className='capitalize text-6xl -mt-28 bg-gradient-to-r from-white to-gray-500 inline-block text-transparent bg-clip-text' >Expression Of Excellent Living</p>
           <div className='top-0 fixed w-full z-20'>
             <NavBar />
           </div>
