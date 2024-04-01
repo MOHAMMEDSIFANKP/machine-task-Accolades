@@ -87,9 +87,9 @@ function HomePage() {
           </div>
 
         </div>
-        <div className='h-20 lg:mt-10 bg-white'>
+        {/* <div className='h-20 lg:mt-10 bg-white'>
           pening
-        </div>
+        </div> */}
         <div className='py-32 px-10 flex justify-center items-center mx-auto container'>
           <video controls className='w-full h-6/6 rounded-[2rem] lg:rounded-[8rem]'>
             <source src={Video1} type="video/mp4" />

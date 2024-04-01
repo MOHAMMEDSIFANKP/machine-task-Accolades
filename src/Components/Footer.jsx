@@ -72,10 +72,11 @@ function Footer() {
           <p className='flex justify-center items-center'>Blogs</p>
           <p className='flex justify-center items-center'>Key handover</p>
         </Card>
-        <Card className='rounded-[2rem] h-20 mt-10 bg-gray-900 bg-opacity-50 border border-gray-900'>
-<p><MdCopyright /> National Builders All Rights Reseved
-</p>
-<p></p>
+        <Card className='rounded-[2rem] h-20 mt-10 grid grid-cols-3 text-white text-xl bg-gray-900 bg-opacity-50 border border-gray-900'>
+          <p className='flex justify-center items-center'><MdCopyright className='w-6 h-6' /> National Builders All Rights Reseved
+          </p>
+          <p className='flex justify-center items-center'>ACCOLADES Integrated</p>
+          <p className='flex justify-center items-center'>Privacy | Terms of Service</p>
         </Card>
       </div>
     </div>
