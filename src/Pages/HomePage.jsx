@@ -96,10 +96,10 @@ function HomePage() {
             Your browser does not support the video tag.
           </video>
         </div>
-        {/* <div className='h-[100vh] lg:mx-36 lg:mt-20'>
+        <div className='h-[100vh] lg:mx-36 lg:mt-20'>
           <Corocels />
-        </div> */}
-        {/* <div className='h-screen bg-gradient-to-r from-gray-900 to-gray-600 grid grid-rows-[20rem,1fr,10rem]'>
+        </div>
+        <div className='h-screen bg-gradient-to-r from-gray-900 to-gray-600 grid grid-rows-[20rem,1fr,10rem]'>
           <div className='grid grid-cols-2'>
             <div className='flex justify-center items-center '>
               <div className='flex'>
@@ -126,7 +126,7 @@ function HomePage() {
           <button className='text-gray-100 font-bold'>Prev</button> <hr className='w-16 mx-2 border-2' /> <button className='text-gray-100 font-bold'>Next</button>
           </div>
           </div>
-        </div> */}
+        </div>
         <div className=''>
           <Footer/>
         </div>
