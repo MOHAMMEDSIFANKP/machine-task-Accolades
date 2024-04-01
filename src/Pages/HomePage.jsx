@@ -99,7 +99,7 @@ function HomePage() {
         <div className='h-[100vh] lg:mx-36 lg:mt-20'>
           <Corocels />
         </div>
-        {/* <div className='h-screen bg-gradient-to-r from-gray-900 to-gray-600 grid grid-rows-[20rem,1fr,10rem]'>
+        <div className='h-screen bg-gradient-to-r from-gray-900 to-gray-600 grid grid-rows-[20rem,1fr,10rem]'>
           <div className='grid grid-cols-2'>
             <div className='flex justify-center items-center '>
               <div className='flex'>
@@ -129,7 +129,7 @@ function HomePage() {
         </div>
         <div className=''>
           <Footer/>
-        </div> */}
+        </div>
       </div>
     </>
   )
