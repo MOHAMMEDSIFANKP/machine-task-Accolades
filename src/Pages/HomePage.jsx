@@ -1,6 +1,8 @@
 import React from 'react'
 import NavBar from '../Components/NavBar'
 import backgroundImage from '../assets/bgimage.avif';
+import backgroundImage2 from '../assets/bgremoved.png';
+
 import { GoArrowUpRight } from "react-icons/go";
 
 import Image1 from '../assets/awards/image1.png'
@@ -20,7 +22,7 @@ function HomePage() {
     <>
       <div className='bg-black text-white'>
         <div className='h-screen bg-no-repeat bg-cover bg-center' style={{ backgroundImage: `url(${backgroundImage})` }}>
-          <div className='top-0 fixed w-full'>
+          <div className='top-0 fixed w-full z-20'>
             <NavBar />
           </div>
         </div>
@@ -67,8 +69,8 @@ function HomePage() {
           </div>
 
         </div>
-        <div className='h-[50rem] lg:h-[28rem] grid grid-rows-2 mx-auto container'>
-          <div className='flex justify-center items-center text-center -mt-72 lg:-mt-0 text-4xl lg:text-6xl '>
+        <div className='h-[50rem] md:h-[20rem] lg:h-[28rem] grid grid-rows-2 mx-auto container'>
+          <div className='flex justify-center items-center text-center -mt-72 md:-mt-52 lg:-mt-0 text-4xl lg:text-6xl '>
             <p><span className='text-red-500'>Awards</span> and <span style={{
               backgroundImage: 'linear-gradient(to right, white, #64748b)',
               WebkitBackgroundClip: 'text',
@@ -87,7 +89,7 @@ function HomePage() {
           </div>
 
         </div>
-        {/* <div className='h-20 lg:mt-10 bg-white'>
+        {/* <div className='h-[250rem] bg-no-repeat bg-cover lg:mt-10 ' style={{ backgroundImage: `url(${backgroundImage2})` }}>
           pening
         </div> */}
         <div className='py-32 px-10 flex justify-center items-center mx-auto container'>
@@ -96,36 +98,36 @@ function HomePage() {
             Your browser does not support the video tag.
           </video>
         </div>
-        <div className='h-[100vh] lg:mx-36 lg:mt-20'>
+        <div className='h-[100vh] lg:mx-36 -mt-36 lg:mt-20'>
           <Corocels />
         </div>
         <div className='h-screen bg-gradient-to-r from-gray-900 to-gray-600 grid grid-rows-[20rem,1fr,10rem]'>
-          <div className='grid grid-cols-2'>
+          <div className='lg:grid lg:grid-cols-2 mt-10 lg:mt-0'>
             <div className='flex justify-center items-center '>
               <div className='flex'>
-                <div className='rounded-full border border-gray-500  h-28 w-28'>
+                <div className='rounded-full border -me-8 lg:-me-0 border-gray-500 h-10 w-10 lg:h-28 lg:w-28'>
                 </div>
-                <div className='rounded-full border -mt-3 -ms-24 border-gray-500 h-28 w-28'>
+                <div className='rounded-full border lg:-mt-3 -mt-1 lg:-ms-24 border-gray-500 h-10 w-10 lg:h-28 lg:w-28'>
                 </div>
               </div>
-              <p className='text-5xl ms-10 opacity-80'>New & Blogs </p>
+              <p className='lg:text-5xl text-3xl lg:ms-10 ms-4 opacity-80'>New & Blogs </p>
             </div>
-            <div className='flex justify-center items-center'>
-              <button className='bg-blue-900 text-xl rounded-full flex p-4 '>View All <GoArrowUpRight className=' ms-4 p-1 h-8 w-8 bg-red-500 rounded-full' /></button>
+            <div className='flex justify-center mt-8 lg:mt-0 items-center'>
+              <button className='bg-blue-900 lg:text-xl rounded-full flex lg:py-4 px-2 py-2 ps-5 lg:px-6 hover:bg-white hover:text-red-500'>View All <GoArrowUpRight className=' ms-4 p-1 lg:h-8 h-6 w-6 lg:w-8 bg-red-500 rounded-full' /></button>
 
             </div>
 
           </div>
-          <div className='w-full -mt-20 ps-28'>
+          <div className='w-full -mt-52 lg:-mt-20 lg:ps-28'>
             <NewsBlogsCarousel />
 
           </div>
-          <div className='grid grid-cols-2'>
+          {/* <div className='grid grid-cols-2'>
           <div></div>
           <div className='flex justify-center items-center ps-52'>
           <button className='text-gray-100 font-bold'>Prev</button> <hr className='w-16 mx-2 border-2' /> <button className='text-gray-100 font-bold'>Next</button>
           </div>
-          </div>
+          </div> */}
         </div>
         <div className=''>
           <Footer/>

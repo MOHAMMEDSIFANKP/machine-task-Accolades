@@ -21,14 +21,14 @@ function Footer() {
       <hr className='mx-auto container border border-gray-900' />
       <div className='mx-auto container grid lg:grid-rows-[1fr,6rem,12rem]  bg-no-repeat bg-contain bg-center' style={{ backgroundImage: `url(${BgImage})` }}>
         <div className='lg:grid lg:grid-cols-[1fr,5rem,1fr] gap-8'>
-          <Card className='bg-gray-900 bg-opacity-50 border grid grid-cols-[3rem,1fr] lg:grid-cols-[5rem,1fr] border-gray-800 my-10 rounded-[2rem]'>
+          <Card className='bg-gray-900 bg-opacity-50 border grid grid-cols-[3rem,1fr] lg:grid-cols-[5rem,1fr] border-gray-800 my-10  rounded-[2rem]'>
             <div className='text-red-500 ps-3 lg:ps-7'>
               <IoLocationSharp className='h-7 w-7 mt-[7rem]' />
-              <MdEmail className='h-6 w-6 mt-[7.5rem] lg:mt-[5.3rem]' />
+              <MdEmail className='h-6 w-6 mt-[7.5rem] md:mt-[2.5rem]  lg:mt-[5.3rem]' />
               <FaPhoneAlt className='h-6 w-6 mt-[2rem]' />
 
             </div>
-            <div className=' lg:text-xl text-white opacity-90 me-5 leading-8 '>
+            <div className='md:text-xl text-white opacity-90 me-5 pb-4 lg:pb-0 leading-8 '>
               <p className='pt-10'>NAVI MUMBAI </p>
               <p className='pt-8'>National Builders Office, Sea  Queen Heritage Buiding, 1st Floor, Plot No, Sector 18, Palm Beach Service Road, Sanpada, Navi Mumbai-400705 </p>
               <p className='pt-5'>marketingmumbai@nationalbuilders.in</p>
@@ -37,25 +37,25 @@ function Footer() {
 
           </Card>
 
-          <div className='bg-gray-900 bg-opacity-50 border flex justify-center items-center border-gray-800 my-10 rounded-[2rem] sm:flex-col h-16 lg:h-auto'>
-            <FaFacebook className='w-11 h-11 text-red-500 m-5 bg-black p-3 rounded-full' />
-            <GrInstagram className='w-11 h-11 text-red-500 m-5 bg-black p-3 rounded-full' />
-            <FaLinkedin className='w-11 h-11 text-red-500 m-5 bg-black p-3 rounded-full' />
-            <IoLogoYoutube className='w-11 h-11 text-red-500 m-5 bg-black p-3 rounded-full' />
+          <div className='bg-gray-900 bg-opacity-50 border flex justify-center items-center border-gray-800 my-10 rounded-[2rem] lg:flex-col h-16 lg:h-auto'>
+            <FaFacebook className='w-11 h-11 text-red-500 m-5 md:m-9 lg:m-5 bg-black p-3 rounded-full' />
+            <GrInstagram className='w-11 h-11 text-red-500 m-5 md:m-9 lg:m-5 bg-black p-3 rounded-full' />
+            <FaLinkedin className='w-11 h-11 text-red-500 m-5 md:m-9 lg:m-5 bg-black p-3 rounded-full' />
+            <IoLogoYoutube className='w-11 h-11 text-red-500 m-5 md:m-9 lg:m-5 bg-black p-3 rounded-full' />
           </div>
 
           <Card className='bg-gray-900 bg-opacity-50 border grid grid-cols-[3rem,1fr] lg:grid-cols-[5rem,1fr] border-gray-800 my-10 rounded-[2rem]'>
-          <div className='text-red-500 ps-3 lg:ps-7'>
+          <div className='text-red-500 ps-3 lg:ps-7 pb-10 lg:pb-0'>
               <IoLocationSharp className='h-7 w-7 mt-[7rem]' />
-              <MdEmail className='h-6 w-6 mt-[4rem]' />
-              <FaPhoneAlt className='h-6 w-6 mt-[2rem]' />
+              <MdEmail className='h-6 w-6 mt-[4rem] md:mt-[2rem] lg:mt-[4rem] ' />
+              <FaPhoneAlt className='h-6 w-6 mt-[2rem] md:mt-[1.2rem] lg:mt-[2rem]' />
 
             </div>
-            <div className=' lg:text-xl text-white opacity-90 me-5 leading-8 '>
+            <div className=' md:text-xl text-white opacity-90 me-5 leading-8 '>
               <p className='pt-10'>KOCHI </p>
               <p className='pt-8'>National Pearl Star, 5Th Floor, High School Jn.Edappally, Kochi, Kerala - 682024 </p>
-              <p className='lg:pt-9'>marketingkochi@nationalbuilders.in</p>
-              <p className='lg:pt-10'>+91 484 2340781, 2333391, +91 484 2534558</p>
+              <p className='md:pt-3 lg:pt-9'>marketingkochi@nationalbuilders.in</p>
+              <p className='md:pt-5 lg:pt-10'>+91 484 2340781, 2333391, +91 484 2534558</p>
             </div>
 
           </Card>
